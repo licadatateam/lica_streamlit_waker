@@ -1,0 +1,4 @@
+project_id: data-science-special-projects
+gcloud builds submit --tag asia.gcr.io/data-science-special-projects/streamlit-apps-waker
+gcloud run deploy --image asia.gcr.io/data-science-special-projects/deploy st-apps-waker --region asia-southeast1 --platform managed
+* if failed, go to data-science-special-projects/cloud-run/st-apps-waker -> edit and deploy new version

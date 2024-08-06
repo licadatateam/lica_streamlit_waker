@@ -1,0 +1,4 @@
+flask
+selenium
+gunicorn
+chromedriver-binary==126.0.6478.126.0
